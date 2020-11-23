@@ -15,7 +15,7 @@ import com.lucamartinelli.app.simplesite.commons.home.vo.ServiceVO;
 public interface HomeServiceInterface {
 	
 	@GET
-	@Path("/role")
+	@Path("/roles")
 	@PermitAll
 	@Produces({MediaType.APPLICATION_JSON, MediaType.APPLICATION_XML, MediaType.TEXT_PLAIN})
 	public Roles getRoles();

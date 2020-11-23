@@ -2,7 +2,7 @@ thorntail:
   network:
     socket-binding-groups:
       standard-sockets:
-        port-offset: 101
+        port-offset: 202
         default-interface: public
   logging:
     pattern-formatters:
@@ -15,7 +15,7 @@ thorntail:
     periodic-rotating-file-handlers:
       FILE:
         file:
-          path: log/api-gateway.log
+          path: log/commons-interface.log
         suffix: .yyyy-MM-dd
         named-formatter: LOG_FORMATTER
         level: WARN
